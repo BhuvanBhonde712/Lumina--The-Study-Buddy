@@ -3,7 +3,7 @@ import { Outlet, NavLink, useLocation } from 'react-router-dom';
 import {
   LayoutDashboard, MessageSquare, FileQuestion, BookOpen,
   CalendarDays, FileText, Lightbulb, ChevronLeft, ChevronRight,
-  Sparkles
+  Brain, BookMarked
 } from 'lucide-react';
 
 const NAV_ITEMS = [
@@ -30,8 +30,9 @@ export default function Layout() {
       >
         {/* Logo */}
         <div className={`flex items-center gap-2.5 px-4 py-8 border-b border-border ${collapsed ? 'justify-center px-2' : ''}`}>
-          <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center flex-shrink-0">
-            <Sparkles size={15} className="text-white" />
+          <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center flex-shrink-0 relative">
+            <Brain size={16} className="text-white" />
+            <BookMarked size={9} className="text-white absolute -bottom-1 -right-1 bg-primary rounded-sm" />
           </div>
           {!collapsed && (
             <div className="flex flex-col leading-tight">
