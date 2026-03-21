@@ -4,6 +4,9 @@
 
 ---
 ## Live Demo : [Click Here](https://lumina--ai.vercel.app/)
+
+## Demo Video : [Watch Video](https://drive.google.com/file/d/1lDwiJT74dQCJJn04QbjPSMN_CaAzjwwq/view?usp=drivesdk) 
+---
 ## Overview
 
 Lumina is a full-stack AI-powered study assistant built for the modern learner. It takes raw study material — pasted text or uploaded PDFs — and transforms it into structured, interactive learning tools in seconds. Instead of passively reading notes, students actively engage with their material through quizzes, flashcards, and personalized plans tailored to their pace and level.
