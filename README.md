@@ -3,7 +3,7 @@
 > Transforming the way students learn. Upload your notes, get quizzes, flashcards, study plans, summaries, and concept explanations — all powered by Google Gemini AI.
 
 ---
-
+## Live Demo : [Click Here](https://lumina--ai.vercel.app/)
 ## Overview
 
 Lumina is a full-stack AI-powered study assistant built for the modern learner. It takes raw study material — pasted text or uploaded PDFs — and transforms it into structured, interactive learning tools in seconds. Instead of passively reading notes, students actively engage with their material through quizzes, flashcards, and personalized plans tailored to their pace and level.
